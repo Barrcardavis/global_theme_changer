@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+.light-mode {
+  background: white;
+  color: black;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.dark-mode {
+  background: #111;
+  color: white;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
